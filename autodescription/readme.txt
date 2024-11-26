@@ -5,7 +5,7 @@ Tags: seo, xml sitemap, google search, open graph, structured data
 Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 7.4.0
-Stable tag: 5.1.1
+Stable tag: 5.1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -242,6 +242,10 @@ The SEO Framework outputs hidden breadcrumbs for search engines to find via its 
 You can also output these breadcrumbs visually in your theme by [using a shortcode](https://kb.theseoframework.com/?p=212).
 
 == Changelog ==
+
+### 5.1.2
+
+This patch [resolves another issue](https://theseoframework.com/?p=4380) where saving author meta data could cause an error.
 
 ### 5.1.1
 

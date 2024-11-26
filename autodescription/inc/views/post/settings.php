@@ -561,6 +561,7 @@ switch ( $instance ) :
 				}
 
 				// Only hierarchical taxonomies can be used in the URL.
+				// TODO filter post_tag here.
 				$taxonomies               = $post_type ? Taxonomy::get_hierarchical( 'names', $post_type ) : [];
 				$parent_term_slugs_by_tax = [];
 

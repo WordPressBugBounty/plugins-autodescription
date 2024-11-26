@@ -321,6 +321,7 @@ final class ListEdit extends Admin\Lists\Table {
 			}
 
 			// Only hierarchical taxonomies can be used in the URL.
+			// TODO filter post_tag here.
 			$memo['taxonomies'] ??= $post_type ? Taxonomy::get_hierarchical( 'names', $post_type ) : [];
 
 			$taxonomies               = $memo['taxonomies'];
